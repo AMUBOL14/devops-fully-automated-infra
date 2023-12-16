@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo 'Cloning project codebase...'
                 git branch: 'main', url: "https://github.com/AMUBOL14/devops-fully-automated-infra.git'
-                sh 'ls'sh "ls"
+                sh "ls"
             }
         }
         
